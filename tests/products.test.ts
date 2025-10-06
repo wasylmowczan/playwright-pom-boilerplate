@@ -1,5 +1,5 @@
 import { test } from '@playwright/test';
-import ProductsPage from '../pages/peoducts.page';
+import ProductsPage from '../pages/products.page';
 
 test.beforeEach(async ({ page }) => {
     const productsPage = new ProductsPage(page);
